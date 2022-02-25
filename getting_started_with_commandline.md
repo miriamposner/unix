@@ -7,7 +7,7 @@ PCs don't use Unix operating systems, but you can download programs that allow y
 
 Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
 
-You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the terminal.
+You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the shell.
 
 Before we get started, download [this file](https://www.dropbox.com/s/az13rafkll81a6t/commandline%202.zip?dl=0) of sample data and decompress it. Make sure you’ll be able to find it again later.
 
