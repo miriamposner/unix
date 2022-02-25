@@ -49,7 +49,7 @@ Great! Now you should see the command prompt again.
 ## 4. Getting around in the terminal
 ![Getting around in the terminal](steps-getting_started_with_unix/step-3.jpeg)
 
-As you've probably already noticed, you can't do too much in the terminal using your mouse. Instead, the terminal awaits typed commands. Here are some commands that may make your life a little easier:
+As you've probably already noticed, you can't do too much in the terminal using your mouse. Instead, the terminal awaits typed commands. Here are some navigation tips that may make your life a little easier:
 
 Use the **up and down arrows** on your keyboard to scroll back (up) and forward (down) through the previous commands you typed. This often saves you typing. 
 
@@ -58,6 +58,7 @@ Try pressing the up arrow once to rewind to the **echo** command you typed earli
 * To move to the start of a line: hold down the **control** key and then press **a**
 * To move to the end of a line: **control e**
 * To clear the screen: type **clear** into the terminal and press return
+* If you press enter and the terminal window displays a **>** but does nothing else, it's awaiting your input. If you didn't mean to do this, type **control c** to exit the process
 * To quit: type **exit** or just close the window (but don't do that yet!!)
 
 ## 5. Get your bearings (1)
@@ -186,7 +187,7 @@ Let's see what else **cat** (concatenate) can do. Back in your terminal window, 
     cat *.txt > mergedfile.txt
     
 
-Then press return. In the statement we just typed, **cat** is the command. **\*.txt** tells the computer what we want to concatenate. The asterisk (\*) acts as a **wildcard**: It can stand for any string of characters, as long as they're followed by **.txt**. Then we have an arrow, and finally the name of the new file we want to create.
+Then press return. In the statement we just typed, **cat** is the command. **\*.txt** tells the computer what we want to concatenate. The asterisk (\*) acts as a [**wildcard**](https://swcarpentry.github.io/shell-novice/03-create/index.html#wildcards): It can stand for any string of characters, as long as they're followed by **.txt**. Then we have an arrow, and finally the name of the new file we want to create.
 
 So, essentially, you've told your computer, "Concatenate all the files in this folder with the file extension .rtf and put their contents in a new document called mergedfile.rtf."
 
