@@ -198,7 +198,7 @@ After you've run the command, check inside your **commandline** folder. You shou
 
 That was fun, so let's do it again. This time, type
 
-    cat *.csv > "mergedfile.csv
+    cat *.csv > "mergedfile.csv"
     
 
 and press return. Can you tell what we're doing? This time we're telling the computer to concatenate every file in the folder with the file extension **.csv.**
