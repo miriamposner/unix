@@ -5,7 +5,7 @@ Every Mac comes equipped with a program called Terminal. This program allows you
 
 You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the terminal.
 
-Before we get started, download this file of sample data and decompress it. Make sure you’ll be able to find it again later.
+Before we get started, download [this file](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1) of sample data and decompress it. Make sure you’ll be able to find it again later.
 
 ## 1. Open your terminal
 ![Open your terminal](steps-getting_started_with_unix/step-0.jpeg)
