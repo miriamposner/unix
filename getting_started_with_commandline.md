@@ -1,14 +1,20 @@
 
 # Getting started with Unix
 
+Every Mac comes equipped with a program called Terminal. This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this using the command line.) Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
+
+You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the terminal.
+
+Before we get started, download this file of sample data and decompress it. Make sure you’ll be able to find it again later.
+
 ## 1. Open your terminal
 ![Open your terminal](steps-getting_started_with_unix/step-0.jpeg)
 
-Every Mac comes equipped with a program called **Terminal.** This program allows you to communicate via typing with your Unix operating system. ([about:blank](about:blank)Sometimes people call this **using the command line.**) Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
+Every Mac comes equipped with a program called **Terminal.** This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this **using the command line.**) Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
 
-You'll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it's really just important to know that we're working in the terminal.
+You'll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms.](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/) For now, it's really just important to know that we're working in the terminal. 
 
-To get started, use your computer's search function (or press **command** and the **space bar**) and search for the terminal. Then open it!
+Before we get started, download [this file of sample data](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1) and decompress it. Make sure you'll be able to find it again later.
 
 ## 2. What are we looking at?
 ![What are we looking at?](steps-getting_started_with_unix/step-1.jpeg)
@@ -43,13 +49,10 @@ As you've probably already noticed, you can't do too much in the terminal using 
 
 Use the **up and down arrows** on your keyboard to move back (up) and forward (down) through the previous commands you typed. This often saves you typing. Try pressing the up arrow once to rewind to the **echo** command you typed earlier. Then use the left and right arrows to delete the current contents of the quotation marks, replacing them with whatever you want. Then press **return**.
 
-To move to the start of a line: hold down the **control** key and then press **a**
-
-To move to the end of a line: **control e**
-
-To clear the screen: type **clear** into the terminal and press return
-
-To quit: type **exit** or just close the window (but don't do that yet!!)
+* To move to the start of a line: hold down the **control** key and then press **a**
+* To move to the end of a line: **control e**
+* To clear the screen: type **clear** into the terminal and press return
+* To quit: type **exit** or just close the window (but don't do that yet!!)
 
 ## 5. Get your bearings (1)
 ![Get your bearings (1)](steps-getting_started_with_unix/step-4.jpeg)
@@ -104,9 +107,9 @@ Now that we know where we are, let's try moving down our branch. Type
     cd Desk
     
 
-and then press the tab key. The terminal will autocomplete for you! Then press return. (It won't autocomplete if you just press** D**, however. That's because you're not being specific enough; you have both a Desktop folder and a Downloads folder.)
+and then press the tab key. The terminal will autocomplete for you! Then press return. (It won't autocomplete if you just press **D**, however. That's because you're not being specific enough; you have both a **D**esktop folder and a **D**ownloads folder.)
 
-The command **cd** stands for "change directory," and it will take you into the folder you specify. When we navigate around the file system that way, we say that we're using **relative paths** -- that is, they're relative to our position in the tree. **Absolute paths** start at the root and use slashes to indicate subfolders. The path you saw in the sixth step is an example of an absolute path. You can use either relative paths or absolute paths with the **cd** command.
+The command **cd** stands for "change directory," and it will take you into the folder you specify. When we navigate around the file system that way, we say that we're using **relative paths** -- that is, they're relative to our position in the tree. **Absolute paths** start at the root and use slashes to indicate subfolders. The path you saw in the sixth step, after you typed **pwd**, is an example of an absolute path. You can use either relative paths or absolute paths with the **cd** command.
 
 Once you've executed the **cd** command, you should be at your computer's desktop (or whichever folder you specified). You can tell because the name of the folder appears in the command prompt.
 
