@@ -1,20 +1,24 @@
 
-# Getting started with Unix
+# Getting started with the command line
 
-Every Mac comes equipped with a program called Terminal. This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this using the command line.) Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
+Every Mac comes equipped with a program called Terminal. This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this using the command line.) 
+
+PCs don't use Unix operating systems, but you can download programs that allow you to interact with your computer in the same way. When you downloaded [Git for Windows](https://gitforwindows.org/), the download included a program called Git Bash, which will allow you to interact with your PC using textual commands, just like on Unix-based systems.
+
+Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
 
 You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the terminal.
 
-Before we get started, download [this file](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1) of sample data and decompress it. Make sure you’ll be able to find it again later.
+Before we get started, download [this file](https://www.dropbox.com/s/az13rafkll81a6t/commandline%202.zip?dl=0) of sample data and decompress it. Make sure you’ll be able to find it again later.
 
 ## 1. Open your terminal
 ![Open your terminal](steps-getting_started_with_unix/step-0.jpeg)
 
-Every Mac comes equipped with a program called **Terminal.** This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this **using the command line.**) Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
+On a Mac: To get started, use your computer's search function (or press **command** and the **space bar**) and search for the **terminal**. (You can also open it by looking in your computer's **Utilities** folder.)
 
-You'll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here's an explanation of these terms.](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/) For now, it's really just important to know that we're working in the terminal. 
+Then open it!
 
-Before we get started, download [this file of sample data](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1) and decompress it. Make sure you'll be able to find it again later.
+On a PC: Locate the program called **Git Bash**. If you kept all the default settings during installation, it should be available on your Start menu. Going forward, you'll mostly see images of the Mac's terminal, but these instructions should also work on Git Bash.
 
 ## 2. What are we looking at?
 ![What are we looking at?](steps-getting_started_with_unix/step-1.jpeg)
@@ -47,7 +51,9 @@ Great! Now you should see the command prompt again.
 
 As you've probably already noticed, you can't do too much in the terminal using your mouse. Instead, the terminal awaits typed commands. Here are some commands that may make your life a little easier:
 
-Use the **up and down arrows** on your keyboard to move back (up) and forward (down) through the previous commands you typed. This often saves you typing. Try pressing the up arrow once to rewind to the **echo** command you typed earlier. Then use the left and right arrows to delete the current contents of the quotation marks, replacing them with whatever you want. Then press **return**.
+Use the **up and down arrows** on your keyboard to scroll back (up) and forward (down) through the previous commands you typed. This often saves you typing. 
+
+Try pressing the up arrow once to rewind to the **echo** command you typed earlier. Then use the left and right arrows to delete the current contents of the quotation marks, replacing them with whatever you want. Then press **return**.
 
 * To move to the start of a line: hold down the **control** key and then press **a**
 * To move to the end of a line: **control e**
@@ -65,7 +71,7 @@ When you move up and down the tree, you're moving closer or farther from the roo
 
 By default, when you use the terminal, you're dropped just below the root, into the folder for your user profile.
 
-In the image below, the circles represent folders (AKA directories) and the uncircled nodes represent individual files.
+In the image above, the circles represent folders (AKA directories) and the uncircled nodes represent individual files.
 
 ## 6. Get your bearings (2)
 ![Get your bearings (2)](steps-getting_started_with_unix/step-5.jpeg)
@@ -128,14 +134,14 @@ The two adjacent periods (**..**) are a special code that tells the computer to 
 ## 10. Move into a specific folder
 
 ![Move into a specific folder](steps-getting_started_with_unix/step-9.jpeg)
-On a Mac, there's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
+There's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
 
     cd
     
 
 Next locate the icon for the folder your downloaded. (Mine is in my Downloads folder.)
 
-Then drag the folder icon directly onto the terminal window and drop it there. The terminal will automatically display the folder's absolute path. (My path looks weird because I have Dropbox installed on my computer.) 
+Then drag the folder icon directly onto the terminal window and drop it there. The terminal will automatically display the folder's **absolute path**. (My path looks weird because I have Dropbox installed on my computer.) 
 
 Then type **control e** to move your cursor to the end of the line.
 
@@ -175,12 +181,12 @@ Your terminal window now shows you the contents of your new file.
 ## 13. Concatenate! (1)
 ![Concatenate! (1)](steps-getting_started_with_unix/step-12.jpeg)
 
-Let's see what else cat (concatenate) can do. Back in your terminal window, type:
+Let's see what else **cat** (concatenate) can do. Back in your terminal window, type:
 
     cat *.txt > mergedfile.txt
     
 
-Then press return. In the statement we just typed, **cat** is the command. *.txt is what we want to concatenate. The asterisk (*) acts as a wildcard: It can stand for any string of characters. Then we have an arrow, and finally the name of the new file we want to create.
+Then press return. In the statement we just typed, **cat** is the command. **\*.txt** tells the computer what we want to concatenate. The asterisk (\*) acts as a **wildcard**: It can stand for any string of characters, as long as they're followed by **.txt**. Then we have an arrow, and finally the name of the new file we want to create.
 
 So, essentially, you've told your computer, "Concatenate all the files in this folder with the file extension .rtf and put their contents in a new document called mergedfile.rtf."
 
