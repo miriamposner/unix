@@ -193,9 +193,9 @@ Let's see what else cat (concatenate) can do. Back in your terminal window, type
     cat *.txt > mergedfile.txt
     
 
-Then press return. In the statement we just typed, **cat** is the command. *.txt is what we want to concatenate. The asterisk (*) acts as a wildcard: It can stand for any string of characters. Then we have an arrow, and finally the name of the new file we want to create.
+Then press return. In the statement we just typed, **cat** is the command. \*.txt is what we want to concatenate. The asterisk (\*) acts as a wildcard: It can stand for any string of characters. Then we have an arrow, and finally the name of the new file we want to create.
 
-So, essentially, you've told your computer, "Concatenate all the files in this folder with the file extension .rtf and put their contents in a new document called mergedfile.rtf."
+So, essentially, you've told your computer, "Concatenate all the files in this folder with the file extension .txt and put their contents in a new document called mergedfile.txt."
 
 After you've run the command, check inside your **commandline** folder. You should have a new file that merges all of your text files into one!
 
@@ -204,7 +204,7 @@ After you've run the command, check inside your **commandline** folder. You shou
 
 That was fun, so let's do it again. This time, type
 
-    cat *.csv > "mergedfile.csv
+    cat *.csv > mergedfile.csv
     
 
 and press return. Can you tell what we're doing? This time we're telling the computer to concatenate every file in the folder with the file extension **.csv.**
