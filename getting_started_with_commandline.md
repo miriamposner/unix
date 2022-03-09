@@ -8,7 +8,7 @@
 
 Every Mac comes equipped with a program called **Terminal.** This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this **using the command line.**)
 
-PCs don’t use Unix operating systems, but you can download programs that allow you to interact with your computer in the same way. For PCs, we'll use [Git for Windows](https://gitforwindows.org/), a download that includes a program called **Git Bash.** The download process for Git for Windows includes a lot of boxes to check; these instructions will walk you through the settings. Git Bash will allow you to interact with your PC using textual commands, just like on Unix-based systems.
+PCs don’t use Unix operating systems, but you can download programs that allow you to interact with your computer in the same way. For PCs, we'll use [Git for Windows](https://gitforwindows.org/), a download that includes a program called **Git Bash.** The download process for Git for Windows includes a lot of boxes to check; [these instructions will walk you through the settings](https://adamtheautomator.com/git-bash/#:~:text=After%20downloading%20Git%2C%20let%E2%80%99s%20start%20installing%20it%20on%20your%20Windows%20PC.). Git Bash will allow you to interact with your PC using textual commands, just like on Unix-based systems.
 
 Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
 
