@@ -2,7 +2,6 @@
 # Getting started with Unix
 
 ## 1. Introduction
-![Introduction](steps-getting_started_with_unix/step-0.jpeg)
 - Level: Absolute beginner
 - Time: 20-50 min's, depending on student's comfort level
 - Watch for: Make sure PC users download Git for Windows, and that Git Bash appears in their start menu. Also make sure that all students download the sample files. It's possible that some of the students' folders have surprising permissions; be prepared for that. 
@@ -17,8 +16,10 @@ You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used 
 
 Before we get started, download [t](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1)[his file](https://www.dropbox.com/s/az13rafkll81a6t/commandline%202.zip?dl=1) of sample data and decompress it. Make sure you’ll be able to find it again later.
 
-## 2. Open your terminal
-![Open your terminal](steps-getting_started_with_unix/step-1.jpeg)
+
+## 1. Open your terminal
+![Open your terminal](steps-getting_started_with_unix/step-0.jpeg)
+
 On a Mac: To get started, use your computer’s search function (or press **command** and the **space bar**) and search for the terminal. (You can also open it by looking in your computer’s **Utilities** folder.)
 
 Then open it!
@@ -26,7 +27,8 @@ Then open it!
 On a PC: Locate the program called Git Bash. If you kept all the default settings during installation, it should be available on your Start menu. If it’s not there, use your computer’s search function to locate Git Bash. Going forward, you’ll mostly see images of the Mac’s terminal, but these instructions should also work on Git Bash.
 
 ## 3. What are we looking at?
-![What are we looking at?](steps-getting_started_with_unix/step-2.jpeg)
+![What are we looking at?](steps-getting_started_with_unix/step-1.jpeg)
+
 This is a terminal window, also called a shell! It has a **command prompt** waiting for you to tell it what to do. You can tell it's waiting for you to type something because it displays a **%** (or a **$**, they mean the same thing).
 
 To work in the shell, you'll type out a command and then press return. Let's try our first command. Type
@@ -39,7 +41,8 @@ and press return. The terminal returns your username. (Mine's miriamposner.)
 And now the command prompt displays again, ready for you to issue your next instruction.
 
 ## 4. Say hello
-![Say hello](steps-getting_started_with_unix/step-3.jpeg)
+![Say hello](steps-getting_started_with_unix/step-2.jpeg)
+
 This is another easy one. Type
 
     echo 'Hello world'
@@ -50,7 +53,8 @@ and press return. The command **echo** instructs the terminal to repeat whicheve
 Great! Now you should see the command prompt again.
 
 ## 5. Getting around in the terminal
-![Getting around in the terminal](steps-getting_started_with_unix/step-4.jpeg)
+![Getting around in the terminal](steps-getting_started_with_unix/step-3.jpeg)
+
 As you've probably already noticed, you can't do too much in the terminal using your mouse. Instead, the terminal awaits typed commands. Here are some commands that may make your life a little easier:
 
 Use the **up and down arrows** on your keyboard to move back (up) and forward (down) through the previous commands you typed. This often saves you typing. Try pressing the up arrow once to rewind to the **echo** command you typed earlier. Then use the left and right arrows to delete the current contents of the quotation marks, replacing them with whatever you want. Then press **return**.
@@ -64,7 +68,8 @@ To clear the screen: type **clear** into the terminal and press return
 To quit: type **exit** or just close the window (but don't do that yet!!)
 
 ## 6. Get your bearings (1)
-![Get your bearings (1)](steps-getting_started_with_unix/step-5.jpeg)
+![Get your bearings (1)](steps-getting_started_with_unix/step-4.jpeg)
+
 When you're using the terminal, you're always working from somewhere on your computer. In order to understand where that is, you need to learn a little bit about **paths**.
 
 Your computer's file system is an upside-down tree. The root is your hard drive. In the next set of branches come a set of folders (also called "directories") that are used by everyone who uses your computer. In the folder called **users** are folders for different user profiles (the desktop you see when you log into your computer), and beneath that, usually, is a set of folders associated with your user profile, including Applications, Desktop, Documents, Downloads, etc. Each of these folders hold their own files or folders, each of *these* folders might contain their own folders, and so on.
@@ -76,7 +81,8 @@ By default, when you use the terminal, you're dropped just below the root, into 
 In the image below, the circles represent folders (AKA directories) and the uncircled nodes represent individual files.
 
 ## 7. Get your bearings (2)
-![Get your bearings (2)](steps-getting_started_with_unix/step-6.jpeg)
+![Get your bearings (2)](steps-getting_started_with_unix/step-5.jpeg)
+
 Let's make this more concrete. In the terminal window, type this command:
 
     pwd
@@ -90,7 +96,8 @@ Let's make this more concrete. In the terminal window, type this command:
 This is called a path! That's because it leads to your location. When you see a backslash (**/**) at the start of a path, that stands for the root of your computer. Subsequent slashes indicate that you're moving into a subfolder. So, in the path above, I'm in the miriamposner folder, which is inside the Users folder, which is located at the root of my computer! You should be in the folder associated with the name of your own profile. (But if you're not, it's not a big deal!)
 
 ## 8. Meet your neighbors
-![Meet your neighbors](steps-getting_started_with_unix/step-7.jpeg)
+![Meet your neighbors](steps-getting_started_with_unix/step-6.jpeg)
+
 Let's see what's in the same folder as you. Type
 
     ls
@@ -101,7 +108,8 @@ and press return. This command means "list" and it will list your cohabitants wi
 You'll probably see a list of folders like those in the image. Generally, you can tell you're looking at a folder because the name is not followed by a file extension (e.g., .doc, .xls, .txt). A name followed by a file extension usually indicates that you're looking at a file.
 
 ## 9. Move down the tree
-![Move down the tree](steps-getting_started_with_unix/step-8.jpeg)
+![Move down the tree](steps-getting_started_with_unix/step-7.jpeg)
+
 Now that we know where we are, let's try moving down our branch. Type
 
     cd Desktop
@@ -121,7 +129,8 @@ Once you've executed the **cd** command, you should be at your computer's deskto
 Type **ls** to see what's on your desktop. If you're like me, it's too many screenshots.
 
 ## 10. Move back up the tree
-![Move back up the tree](steps-getting_started_with_unix/step-9.jpeg)
+![Move back up the tree](steps-getting_started_with_unix/step-8.jpeg)
+
 Let's head back up toward the root. Type
 
     cd ..
@@ -130,8 +139,9 @@ Let's head back up toward the root. Type
 The two adjacent periods (**..**) are a special code that tells the computer to move up the tree one folder. So this will take you back up to where you were before you cd'd the first time.
 
 ## 11. Move into a specific folder
-![Move into a specific folder](steps-getting_started_with_unix/step-10.jpeg)
-On a Mac, there's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
+![Move into a specific folder](steps-getting_started_with_unix/step-9.jpeg)
+
+There's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
 
     cd
     
@@ -152,7 +162,8 @@ You can type
 and press return to confirm you're where you want to be.
 
 ## 12. Magically create a file
-![Magically create a file](steps-getting_started_with_unix/step-11.jpeg)
+![Magically create a file](steps-getting_started_with_unix/step-10.jpeg)
+
 Now we can start to get a sense of what you can do with the command line. We'll start with something easy but cool. Type the following into your terminal
 
     touch magicfile.txt
@@ -163,7 +174,8 @@ and press return. Now look inside the **commandline** folder you downloaded. You
 That's what the **touch** command does: It creates an empty file. Open magicfile.txt and type something in it. Then save the document and close it.
 
 ## 13. Check your work
-![Check your work](steps-getting_started_with_unix/step-12.jpeg)
+![Check your work](steps-getting_started_with_unix/step-11.jpeg)
+
 Now, back in your terminal window, type
 
     cat magicfile.txt
@@ -174,7 +186,8 @@ Now, back in your terminal window, type
 Your terminal window now shows you the contents of your new file.
 
 ## 14. Concatenate! (1)
-![Concatenate! (1)](steps-getting_started_with_unix/step-13.jpeg)
+![Concatenate! (1)](steps-getting_started_with_unix/step-12.jpeg)
+
 Let's see what else cat (concatenate) can do. Back in your terminal window, type:
 
     cat *.txt > mergedfile.txt
@@ -187,7 +200,8 @@ So, essentially, you've told your computer, "Concatenate all the files in this f
 After you've run the command, check inside your **commandline** folder. You should have a new file that merges all of your text files into one!
 
 ## 15. Concatenate! (2)
-![Concatenate! (2)](steps-getting_started_with_unix/step-14.jpeg)
+![Concatenate! (2)](steps-getting_started_with_unix/step-13.jpeg)
+
 That was fun, so let's do it again. This time, type
 
     cat *.csv > "mergedfile.csv
@@ -198,7 +212,8 @@ and press return. Can you tell what we're doing? This time we're telling the com
 When you're done, check in your commandline folder. The document **mergedfile.csv** should now contain data from both spreadsheets! (In order to concatenate like this, the layout of both sheets must be identical; otherwise you'll have columns with different data in them.)
 
 ## 16. Remove files!
-![Remove files!](steps-getting_started_with_unix/step-15.jpeg)
+![Remove files!](steps-getting_started_with_unix/step-14.jpeg)
+
 I grow tired of these files! Let's get rid of them. This time, type
 
     rm mergedfile*
@@ -207,7 +222,8 @@ I grow tired of these files! Let's get rid of them. This time, type
 We're using the command **rm**, which removes the designated items. This time we've told the computer to remove anything whose name starts with **mergedfile**.
 
 ## 17. Move files!
-![Move files!](steps-getting_started_with_unix/step-16.jpeg)
+![Move files!](steps-getting_started_with_unix/step-15.jpeg)
+
 Let's keep cleaning things up. I'm going to make a new folder (AKA directory) to hold my CSV files. Type
 
     mkdir csv
@@ -225,7 +241,8 @@ See what we did? We used the **mv** (move) command to move everything with the f
 Can you do the same for the text files?
 
 ## 18. Get a word count
-![Get a word count](steps-getting_started_with_unix/step-17.jpeg)
+![Get a word count](steps-getting_started_with_unix/step-16.jpeg)
+
 If each of my text files contained a chapter in my novel and I wanted to see how many pages I had total, I could open each document individually, check the word count, and then add up all the values.
 
 We're too smart to do that, though. We're going to use the **wc** command. (Before you run this command, you may have to **cd** into a subfolder if you created a directory for your text files in the last step!)
@@ -240,7 +257,8 @@ The command **wc** means, appropriately enough, word count. And there's that wil
 Hmm, looks like I've got a ways to go on my novel...
 
 ## 19. A little about syntax
-![A little about syntax](steps-getting_started_with_unix/step-18.jpeg)
+![A little about syntax](steps-getting_started_with_unix/step-17.jpeg)
+
 You're almost done, but before you go, here's some information that will help you understand Unix commands if you encounter them on the web.
 
 You've already seen **commands**; they tell your computer to do something. Many commands also have **options**, which are indicated by a hyphen (-). For example, you could type
@@ -264,7 +282,8 @@ Commands don't need to have arguments or options, and they can have more than on
 You can also chain together multiple commands using the vertical bar (|), often called a **pipe**.
 
 ## 20. Great job!
-![Great job!](steps-getting_started_with_unix/step-19.jpeg)
+![Great job!](steps-getting_started_with_unix/step-18.jpeg)
+
 You've navigated the terminal! Now that you know about it, you'll find lots of opportunities to use it.
 
 Here's a [cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) for you! And if you're ready to start learning more, [this lesson](https://swcarpentry.github.io/shell-novice/03-create/index.html#copying-files-and-directories) will show you how to copy files and how to work with multiple files at once.
