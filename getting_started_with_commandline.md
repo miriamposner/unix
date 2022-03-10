@@ -2,7 +2,7 @@
 # Getting started with Unix
 
 ## 1. Introduction
-- Level: Absolute beginner
+- Level: Absolute beginner who has had a general, conceptual introduction to Unix (like [this](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html))
 - Time: 20-50 min's, depending on student's comfort level
 - Watch for: Make sure PC users download Git for Windows, and that Git Bash appears in their start menu. Also make sure that all students download the sample files. It's possible that some of the students' folders have surprising permissions; be prepared for that. 
 
