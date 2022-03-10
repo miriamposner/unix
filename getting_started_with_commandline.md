@@ -152,7 +152,7 @@ Then drag the folder icon directly onto the terminal window and drop it there. T
 
 Then type **control e** to move your cursor to the end of the line.
 
-When you press return (from anywhere on the line you typed), you'll be taken into the folder you dropped into the terminal.
+When you press return (from anywhere on the line you typed), you'll be taken into the folder you dropped into the terminal. (Confused? [Watch me do it](https://youtu.be/COnbjVzOscA).
 
 You can type
 
