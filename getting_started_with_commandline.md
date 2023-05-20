@@ -103,7 +103,7 @@ Let's see what's in the same folder as you. Type
     ls
     
 
-and press return. This command means "list" and it will list your cohabitants within the folder for your user profile. Hmm, I really need to clean out my computer! What even are those folders?
+and press return. This command means "list" and it will list your cohabitants within the folder for your user profile. (Hmm, I really need to clean out my computer! What even are those folders?)
 
 You'll probably see a list of folders like those in the image. Generally, you can tell you're looking at a folder because the name is not followed by a file extension (e.g., .doc, .xls, .txt). A name followed by a file extension usually indicates that you're looking at a file.
 
@@ -152,7 +152,7 @@ Then drag the folder icon directly onto the terminal window and drop it there. T
 
 Then type **control e** to move your cursor to the end of the line.
 
-When you press return (from anywhere on the line you typed), you'll be taken into the folder you dropped into the terminal. (Confused? [Watch me do it](https://youtu.be/COnbjVzOscA).)
+When you press **return** (from anywhere on the line you typed), you'll be taken into the folder you dropped into the terminal. (Confused? [Watch me do it](https://youtu.be/COnbjVzOscA).)
 
 You can type
 
@@ -193,7 +193,7 @@ Let's see what else cat (concatenate) can do. Back in your terminal window, type
     cat *.txt > mergedfile.txt
     
 
-Then press return. In the statement we just typed, **cat** is the command. \*.txt is what we want to concatenate. The asterisk (\*) acts as a wildcard: It can stand for any string of characters. Then we have an arrow, and finally the name of the new file we want to create.
+Then press **return**. In the statement we just typed, **cat** is the command. **\*.txt** is what we want to concatenate. The asterisk (\*) acts as a wildcard: It can stand for any string of characters. Then we have an arrow, and finally the name of the new file we want to create.
 
 So, essentially, you've told your computer, "Concatenate all the files in this folder with the file extension .txt and put their contents in a new document called mergedfile.txt."
 
@@ -252,7 +252,7 @@ Type
     wc *.txt
     
 
-The command **wc** means, appropriately enough, word count. And there's that wildcard again! This time, we told our computer to add up the words contained in every document with the file extension **.txt**.
+The command **wc** means, appropriately enough, "word count." And there's that wildcard again! This time, we told our computer to add up the words contained in every document with the file extension **.txt**.
 
 Hmm, looks like I've got a ways to go on my novel...
 
@@ -268,7 +268,7 @@ You've already seen **commands**; they tell your computer to do something. Many 
 
 which would force your terminal to display all of the files in a directory, including the ones that are usually hidden. Sometimes these are called **flags** or **switches**.
 
-Finally, commands can have **arguments. **They tell your computer what to perform the operation on -- for example, a particular file or directory.
+Finally, commands can have **arguments.** They tell your computer what to perform the operation on -- for example, a particular file or directory.
 
 For example, you could type
 
@@ -286,6 +286,6 @@ You can also chain together multiple commands using the vertical bar (|), often 
 
 You've navigated the terminal! Now that you know about it, you'll find lots of opportunities to use it.
 
-Here's a [cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) for you! And if you're ready to start learning more, [this lesson](https://swcarpentry.github.io/shell-novice/03-create/index.html#copying-files-and-directories) will show you how to copy files and how to work with multiple files at once.
+Here's a [cheat sheet](https://www.guru99.com/linux-commands-cheat-sheet.html) for you! And if you're ready to start learning more, [this lesson]([https://swcarpentry.github.io/shell-novice/03-create/index.html#copying-files-and-directories](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)) will show you how to use more advanced Unix commands.
 
 
