@@ -26,11 +26,16 @@ Before we get started, download [t](https://www.dropbox.com/s/x0i689m2lfivb3i/co
 ## 1. Open your terminal
 ![Open your terminal](steps-getting_started_with_unix/step-0.jpeg)
 
-On a Mac: To get started, use your computer’s search function (or press **command** and the **space bar**) and search for the terminal. (You can also open it by looking in your computer’s **Utilities** folder.)
+### On a Mac: 
+To get started, use your computer’s search function (or press **command** and the **space bar**) and search for the terminal. (You can also open it by looking in your computer’s **Utilities** folder.)
 
 Then open it!
 
-On a PC: Locate the program called Git Bash. If you kept all the default settings during installation, it should be available on your Start menu. If it’s not there, use your computer’s search function to locate Git Bash. Going forward, you’ll mostly see images of the Mac’s terminal, but these instructions should also work on Git Bash.
+### On a PC: 
+Locate the program called Git Bash. If you kept all the default settings during installation, it should be available on your Start menu. If it’s not there, use your computer’s search function to locate Git Bash. Going forward, you’ll mostly see images of the Mac’s terminal, but these instructions should also work on Git Bash.
+
+### On a Chromebook:
+Please follow the instructions [here](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#chromebook).
 
 ## 3. What are we looking at?
 ![What are we looking at?](steps-getting_started_with_unix/step-1.jpeg)
