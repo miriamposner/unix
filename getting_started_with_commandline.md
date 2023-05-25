@@ -126,7 +126,7 @@ Now that we know where we are, let's try moving down our branch. Type
     cd Desktop
     
 
-(Or the name of another folder at the same level as you.) Better yet, type
+(Or the name of another folder at the same level as you.) Better yet, on a Mac, you can type
 
     cd Desk
     
@@ -152,25 +152,30 @@ The two adjacent periods (**..**) are a special code that tells the computer to 
 ## 11. Move into a specific folder
 ![Move into a specific folder](steps-getting_started_with_unix/step-9.jpeg)
 
-There's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
+Now, we need to navigate into the folder we downloaded at the beginning.
+
+If you're on a Mac, there's a cool way to move directly into the folder you're interested in. We'll use this trick to navigate to the folder you downloaded at the beginning of this tutorial. First, type
 
     cd
     
 
 Next locate the icon for the folder your downloaded. (Mine is in my Downloads folder.)
 
-Then drag the folder icon directly onto the terminal window and drop it there. The terminal will automatically display the folder's absolute path. (My path looks weird because I have Dropbox installed on my computer.) 
+Then drag the folder icon directly onto the terminal window and drop it there. The terminal will automatically display the folder's absolute path.
 
 Then type **control e** to move your cursor to the end of the line.
 
 When you press **return** (from anywhere on the line you typed), you'll be taken into the folder you dropped into the terminal. (Confused? [Watch me do it](https://youtu.be/COnbjVzOscA).)
 
-You can type
+
+Once you think you're in the commandline folder, you can type
 
     pwd
     
 
 and press return to confirm you're where you want to be.
+
+If you’re on a PC or Chromebook, you’ll have to navigate down or up your file system until you find the folder you downloaded! Start by figuring out where you are, by typing **pwd**. Then move up (by typing **cd ..**) or down (by typing **cd** and the name of another folder) to make your way into the location of the commandline folder.
 
 ## 12. Magically create a file
 ![Magically create a file](steps-getting_started_with_unix/step-10.jpeg)
