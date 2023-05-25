@@ -8,7 +8,8 @@
     - Make sure PC users download Git for Windows, and that Git Bash appears in their start menu. 
     - Make sure that all students download the sample files.
     - Make sure that all students, especially PC users, unzip ("extract") the folder they download. 
-    - It's possible that some of the students' folders have surprising permissions; be prepared for that. Some students may have Chromebooks, which requires [special handling](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#chromebook). 
+    - It's possible that some of the students' folders have surprising permissions; be prepared for that. 
+    - Some students may have Chromebooks, which require [special handling](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#chromebook). 
     - Because students on PCs can't enter paths by dragging and dropping file icons, they have a tendency to get stuck at Step 10. It's good to know that PCs have multiple desktops; if a student can't find the folder they downloaded, it may be because they're at the desktop (or downloads folder) of the wrong user profile. 
 
 Every Mac comes equipped with a program called **Terminal.** This program allows you to communicate via typing with your Unix operating system. (Sometimes people call this **using the command line.**)
