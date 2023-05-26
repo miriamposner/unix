@@ -16,9 +16,15 @@ Every Mac comes equipped with a program called **Terminal.** This program allows
 
 PCs don’t use Unix operating systems, but you can download programs that allow you to interact with your computer in the same way. For PCs, we'll use [Git for Windows](https://gitforwindows.org/), a download that includes a program called **Git Bash.** The download process for Git for Windows includes a lot of boxes to check; [these instructions will walk you through the settings](https://adamtheautomator.com/git-bash/#:~:text=After%20downloading%20Git%2C%20let%E2%80%99s%20start%20installing%20it%20on%20your%20Windows%20PC.). Git Bash will allow you to interact with your PC using textual commands, just like on Unix-based systems.
 
-Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Plus you look cool.
+Why would you want to do this? While graphical user interfaces (GUIs) are convenient, using the command line allows you to perform actions programmatically and to chain actions together so that, in many cases, you can perform a task much more quickly (or, in some cases, at all). Here are some things you could do with the command line:
+- Convert a bunch of .PNGs to .JPGS, all at once
+- Merge a bunch of audio files together in an order that you specify
+- Download documents from the internet all at once and save them with relevant filenames
+- Add a cover sheet to each document in a folder full of documents
 
-You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping) to refer to this kind of work. [Here’s an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the shell.
+And that's just the beginning! (Plus you'll look cool.)
+
+You’ll hear the terms terminal, bash, shell, CLI, command line, and Unix used frequently (and often overlapping-ly) to refer to this kind of work. [Here’s an explanation of these terms](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/). For now, it’s really just important to know that we’re working in the shell.
 
 Before we get started, download [t](https://www.dropbox.com/s/x0i689m2lfivb3i/commandline.zip?dl=1)[his file](https://www.dropbox.com/s/az13rafkll81a6t/commandline%202.zip?dl=1) of sample data and decompress it. Make sure you’ll be able to find it again later.
 
